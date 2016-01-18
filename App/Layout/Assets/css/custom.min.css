@@ -1,0 +1,471 @@
+body,html {
+  height: 100%;
+}
+
+.collection .collection-item i {
+  color: #6EA6EE !important;
+}
+
+.bar-title .collection-item i {
+  color: #a88add !important;
+}
+
+.cyan {
+  background: #4dd0e1!important;
+}
+
+.collection .collection-item.active {
+  background: #6EA6EE;
+}
+
+.collection .collection-item.active , .collection .collection-item.active i {
+  color: white!important;
+}
+
+.bg-white {
+  background: white !important;
+  color: #42a5f5;
+}
+
+.bg-white .breadcrumb {
+  color: #42a5f5;
+  font-size: 14px;
+}
+
+.breadcrumb:before {
+  color: #42a5f5;
+}
+
+.horizontal li {
+  display: inline;
+}
+
+.view-item {
+  padding: 10px;
+}
+
+.view-item li {
+  margin-left: 20px!important;
+}
+
+.input-field input[type=search]:focus+label i,.input-field input[type=search]:focus ~ .mdi-navigation-close,.input-field input[type=search]:focus ~ .material-icons {
+  color: #6EA6EE;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.bg-blue {
+  background: #42a5f5 !important;
+  color: white;
+}
+
+.bg-blue a,.bg-blue i {
+  color: white !important;
+}
+
+.font-blue {
+  color: #6EA6EE !important;
+}
+
+.font-grey {
+  color: #aaa !important;
+}
+
+.font-red {
+  color: #ee6e73 !important;
+}
+
+.font-green {
+  color: #66bb6a   !important;
+}
+
+.font-purple {
+  color: #ba68c8   !important;
+}
+
+.font-white {
+  color: white !important;
+  background: white !important;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.bar-title {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bar-title .collection-item {
+  background: #a88add!important;
+  padding: 12px;
+}
+
+.list-menu li {
+  display: inline;
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+.list-item  tr td {
+  padding: 5px;
+}
+/*********************************************************************************************************************************
+*
+* IB STYLE
+*
+**********************************************************************************************************************************/
+th {
+  text-transform: uppercase;
+  color: #555!important;
+}
+/* Text colors */
+.text-custom {
+  color: #5fbeaa;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-danger {
+  color: #f05050;
+}
+
+.text-muted {
+  color: #98a6ad;
+}
+
+.text-primary {
+  color: #5d9cec;
+}
+
+.text-warning {
+  color: #ffbd4a;
+}
+
+.text-success {
+  color: #81c868;
+}
+
+.text-info {
+  color: #34d3eb;
+}
+
+.text-inverse {
+  color: #4c5667;
+}
+
+.text-pink {
+  color: #fb6d9d;
+}
+
+.text-purple {
+  color: #7266ba;
+}
+
+.text-dark {
+  color: #797979 !important;
+}
+
+.card-box {
+  padding: 20px;
+  border: 1px solid rgba(54, 64, 74, 0.05);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.widget-bg-color-icon .bg-icon-info {
+  background-color: rgba(52, 211, 235, 0.2);
+  border: 1px solid #34d3eb;
+}
+
+.widget-bg-color-icon .bg-icon {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-clip: padding-box;
+  vertical-align: middle;
+}
+
+.bg-icon .material-icons {
+  font-size: 60px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-dark {
+  color: #797979 !important;
+}
+
+h3 {
+  line-height: 30px;
+}
+
+.box, .box-shadow-z0 .box-color {
+  box-shadow: 0 0 1px rgba(0,0,0,.15);
+}
+
+.box, .box-color {
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.p-a {
+  padding: 1rem!important;
+}
+
+.m-r, .m-x {
+  margin-right: 1rem!important;
+}
+
+.pull-left {
+  float: left!important;
+}
+
+.clear {
+  display: block;
+  overflow: hidden;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+._300 {
+  font-weight: 300;
+}
+
+.m-a-0 {
+  margin: 0!important;
+}
+
+.text-sm {
+  font-size: .8rem;
+}
+
+.w-48 {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+}
+
+.md-btn, .md-check, .md-input~label, .w-16, .w-20, .w-24, .w-32, .w-48, .w-56, .w-8 {
+  display: inline-block;
+}
+
+.circle, .rounded {
+  border-radius: 500px;
+}
+
+.accent {
+  color: rgba(255,255,255,.87);
+  background-color: #a88add;
+}
+
+.warn {
+  color: rgba(255,255,255,.87);
+  background-color: #fcc100;
+}
+
+.success {
+  color: rgba(255,255,255,.87);
+  background-color: #6cc788;
+}
+
+.info {
+  color: rgba(255,255,255,.87);
+  background-color: #6887ff;
+}
+
+.warning {
+  color: rgba(255,255,255,.87);
+  background-color: #f77a99;
+}
+
+.danger {
+  color: rgba(255,255,255,.87);
+  background-color: #f44455;
+}
+
+.menu-side {
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 0px!important;
+  border-radius: 0px 0px 10px 0px;
+  margin-bottom: 15px;
+}
+
+.md-btn, .w-24, .w-32, .w-40, .w-48, .w-56 {
+  text-align: center;
+}
+
+.panel .material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  vertical-align: -4px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+/*********************************************************************************************************************************
+*
+* xDEBUG STYLE ADAPTER
+*
+**********************************************************************************************************************************/
+
+/*********************************************************************************************************************************
+*
+* xDEBUG STYLE ADAPTER
+*
+**********************************************************************************************************************************/
+.xdebug-var-dump {
+  background: #fef9fb !important;
+  color: #000 !important;
+  padding: 4px 8px !important;
+  margin: 5px 10px !important;
+  text-align: left !important;
+  font-family: Menlo, Monaco, "Consolas", "Lucida Console", "courier new" !important;
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  border-radius: 10px !important;
+  border: solid 3px #ee6e73 !important;
+}
+
+.xdebug-error {
+  color: #333 !important;
+  font-family: Tahoma !important;
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  border-radius: 10px !important;
+  border: solid 3px #ee6e73 !important;
+  font-size: 12px;
+}
+
+.xdebug-error td ,
+.xdebug-error th {
+  padding: 4px !important;
+  border-collapse: collapse !important;
+  vertical-align: top;
+}
+
+.xdebug-error > tbody > tr:first-child > th {
+  background: #ee6e73 !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-weight: normal;
+  font-family: Verdana !important;
+}
+
+.xdebug-error > tbody > tr:first-child > th span {
+  background: #fff !important;
+  margin: 2px;
+  padding: 10px;
+  line-height: 150%;
+  font-size: 16px !important;
+  vertical-align: middle;
+  color: #ee6e73 !important;
+  border: solid 0px #f39800;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+  border-radius: 20px !important;
+  height: 45px !important;
+  display: block !important;
+  float: left !important;
+}
+
+.xdebug-error th {
+  background: -moz-linear-gradient(top, #fff, #ececec) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ececec)) !important;
+}
+
+.xdebug-error th {
+  border-right: solid 1px #ececec !important;
+}
+
+.xdebug-error th:last-child {
+  border-right: 0 !important;
+}
+
+.xdebug-error td {
+  background: #fef9fb !important;
+  font-family: Menlo, Monaco, "Consolas", "Lucida Console", "courier new" !important;
+}
+
+.xdebug-error td {
+}
+
+.xdebug-error td {
+  border-right: dashed 1px #f0f0f0 !important;
+  border-bottom: dashed 1px #f0f0f0 !important;
+}
+
+.xdebug-error td:last-child {
+  border-right: 0 !important;
+}
+
+.xdebug-error tr:last-child td {
+  border-bottom: 0 !important;
+}
+
+.xdebug-error tr:last-child th ,
+.xdebug-error tr:last-child td {
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+
+font[color="#00bb00"] ,
+font[color="#4e9a06"] {
+  color: #618e34 !important;
+}
+
+font[color="#ff0000"] ,
+font[color="#cc0000"] {
+  color: #d83473 !important;
+}
+
+font[color="#3465a4"] {
+  color: #0075c2 !important;
+}
+
+.xdebug-error .xdebug-var-dump {
+  padding: 0 !important;
+  margin: 0 !important;
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+

@@ -1,0 +1,105 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.1
+-- http://www.phpmyadmin.net
+-- 
+-- Servidor: localhost:3306
+-- Tempo de Geração: Dez 04, 2015 as 06:16 PM
+-- Versão do Servidor: 5.6.24
+-- Versão do PHP: 5.5.14
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Banco de Dados: `internetbanking`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Estrutura da tabela `categorys`
+-- 
+
+CREATE TABLE `categorys` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `created_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=23 ;
+
+-- 
+-- Extraindo dados da tabela `categorys`
+-- 
+
+INSERT INTO `categorys` (`id`, `name`, `created_at`) VALUES 
+(2, 'Eletronicos', '2015-12-04 11:33:57'),
+(3, 'Cama e Quarto', '2015-12-04 11:34:30'),
+(4, 'AlimentaÃ§Ã£o', '2015-12-04 11:34:44'),
+(5, 'eaea', '2015-12-04 11:44:28'),
+(6, 'Teste ', '2015-12-04 11:45:01'),
+(7, 'ea', '2015-12-04 11:52:35'),
+(8, 'eae', '2015-12-04 11:53:06'),
+(9, 'asa', '2015-12-04 17:20:14'),
+(10, 'asa', '2015-12-04 17:20:21'),
+(11, 'asa', '2015-12-04 17:20:35'),
+(12, 'asa', '2015-12-04 17:20:49'),
+(13, 'asa', '2015-12-04 17:20:56'),
+(14, 'asa', '2015-12-04 17:21:04'),
+(15, 'asa', '2015-12-04 17:21:29');
+
+-- --------------------------------------------------------
+
+-- 
+-- Estrutura da tabela `releases`
+-- 
+
+CREATE TABLE `releases` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `type` enum('recipe','expense') NOT NULL DEFAULT 'recipe',
+  `category_id` int(11) NOT NULL,
+  `value` float NOT NULL,
+  `description` text NOT NULL,
+  `created_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+
+-- 
+-- Extraindo dados da tabela `releases`
+-- 
+
+INSERT INTO `releases` (`id`, `type`, `category_id`, `value`, `description`, `created_at`) VALUES 
+(3, 'expense', 0, 0, 'eae', '2015-12-04 09:51:39'),
+(7, 'recipe', 2, 0, 'asa', '2015-12-04 10:33:24'),
+(8, 'recipe', 2, 0, 'asa', '2015-12-04 10:34:05'),
+(10, 'recipe', 2, 0, 'asa', '2015-12-04 10:34:28'),
+(12, 'recipe', 2, 0, 'asa', '2015-12-04 10:34:45'),
+(13, 'recipe', 2, 0, 'asa', '2015-12-04 10:34:50'),
+(14, 'recipe', 2, 0, 'asa', '2015-12-04 10:35:10'),
+(15, 'recipe', 2, 0, 'asa', '2015-12-04 10:36:38'),
+(16, 'expense', 4, 10, 'Lorem asa asas aas', '2015-12-04 17:57:25');
+
+-- --------------------------------------------------------
+
+-- 
+-- Estrutura da tabela `user`
+-- 
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `category` int(11) NOT NULL,
+  `created_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+-- 
+-- Extraindo dados da tabela `user`
+-- 
+
+INSERT INTO `user` (`id`, `name`, `email`, `category`, `created_at`) VALUES 
+(1, 'sikamy', 'adritis@gmail.com', 3, '0000-00-00 00:00:00'),
+(2, 'adriel', 'adritis@pessoal.com', 0, '0000-00-00 00:00:00'),
+(3, 'adritis', 'adritis@gmail.com', 3, '0000-00-00 00:00:00'),
+(4, 'adritis', 'adritis@gmail.com', 3, '0000-00-00 00:00:00'),
+(5, 'adritis', 'adritis@gmail.com', 3, '0000-00-00 00:00:00'),
+(6, 'adritis', 'adritis@gmail.com', 3, '0000-00-00 00:00:00');
